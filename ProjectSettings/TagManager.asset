@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Toast
+  - Collectable
   layers:
   - Default
   - TransparentFX
