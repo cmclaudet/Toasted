@@ -1,9 +1,37 @@
 fileFormatVersion: 2
 guid: df31ac01ac6da4c9699077598fd1c464
-timeCreated: 1489248582
+timeCreated: 1489253016
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: toast_0
+    21300002: toast_1
+    21300004: toast_2
+    21300006: toast_3
+    21300008: toast_4
+    21300010: toast_5
+    21300012: toast_6
+    21300014: toast_7
+    21300016: toast_8
+    21300018: toast_9
+    21300020: toast_10
+    21300022: toast_11
+    21300024: toast_12
+    21300026: toast_13
+    21300028: toast_14
+    21300030: toast_15
+    21300032: toast_16
+    21300034: toast_17
+    21300036: toast_18
+    21300038: toast_19
+    21300040: toast_20
+    21300042: toast_21
+    21300044: toast_22
+    21300046: toast_23
+    21300048: toast_24
+    21300050: toast_25
+    21300052: toast_26
+    21300054: toast_27
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,13 +62,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 375
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -58,9 +86,381 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: toast_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 3616
+        width: 434
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_1
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 3611
+        width: 246
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_2
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 3623
+        width: 98
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_3
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 3608
+        width: 240
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_4
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 3616
+        width: 434
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_5
+      rect:
+        serializedVersion: 2
+        x: 2696
+        y: 3619
+        width: 240
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_6
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 3629
+        width: 98
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_7
+      rect:
+        serializedVersion: 2
+        x: 3721
+        y: 3619
+        width: 240
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_8
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 3207
+        width: 434
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_9
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 3199
+        width: 434
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_10
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 2771
+        width: 401
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_11
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 2760
+        width: 402
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_12
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 2185
+        width: 434
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_13
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 2181
+        width: 434
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_14
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1568
+        width: 434
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_15
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1569
+        width: 240
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_16
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 1581
+        width: 98
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_17
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1568
+        width: 234
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_18
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 1568
+        width: 434
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_19
+      rect:
+        serializedVersion: 2
+        x: 2701
+        y: 1569
+        width: 230
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_20
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 1581
+        width: 98
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_21
+      rect:
+        serializedVersion: 2
+        x: 3725
+        y: 1568
+        width: 235
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_22
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1159
+        width: 434
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_23
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 1159
+        width: 434
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_24
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 723
+        width: 401
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_25
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 723
+        width: 402
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_26
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 136
+        width: 436
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: toast_27
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 137
+        width: 434
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
