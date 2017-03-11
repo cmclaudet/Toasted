@@ -25,6 +25,7 @@ public class player : MonoBehaviour {
 		playerAnimator.enabled = false;
 		playingAnimation = false;
 		timeSinceAnimationStart = 0;
+		playerAnimator.speed = 2.0f;
 //		calculateShift ();
 	}
 	
