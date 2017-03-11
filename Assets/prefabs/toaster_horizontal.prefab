@@ -54,6 +54,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toastDelay: 2
   toast: {fileID: 1492359031261600, guid: cdd8beeb7bc484588831042a9d824485, type: 2}
+  toastSound: {fileID: 0}
 --- !u!212 &212235863814948940
 SpriteRenderer:
   m_ObjectHideFlags: 1

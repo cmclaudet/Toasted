@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class toastSpawner : MonoBehaviour {
+public class toasterSpawner : MonoBehaviour {
 
 	public GameObject toastPrefab;
 	public GameObject toasterPrefabHor;

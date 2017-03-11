@@ -96,6 +96,7 @@ public class player : MonoBehaviour {
 		if (col.gameObject.CompareTag("Toast")) {
 			gameObject.SetActive(false);
 			gameOverText.enabled = true;
+			Time.timeScale = 0;
 		}
 	}
 }
