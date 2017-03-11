@@ -6,22 +6,32 @@ public class toastSpawner : MonoBehaviour {
 
 	public GameObject toastPrefab;
 	public float spawnFrequency;
+	private float moveFrequency;
+
 
 	private float timeSinceSpawn;
+	private float timeSinceMove;
 
 	// Use this for initialization
 	void Start () {
 		timeSinceSpawn = 0;
+		timeSinceMove = 0;
+		moveFrequency = toastPrefab.GetComponent<randomWalk> ().moveFrequency;
 	}
 				
 	// Update is called once per frame
 	void Update () {
 		timeSinceSpawn += Time.deltaTime;
+		timeSinceMove += Time.deltaTime;
 
 		if (timeSinceSpawn >= spawnFrequency) {
 			SpawnToast ();
 			timeSinceSpawn = 0;
-		//	inactivateToasts ();
+		}
+
+		if (timeSinceMove >= moveFrequency) {
+			inactivateToasts ();
+			timeSinceMove = 0;
 		}
 	}
 
@@ -34,6 +44,16 @@ public class toastSpawner : MonoBehaviour {
 		Instantiate (toastPrefab, worldPosition, Quaternion.identity);
 	}
 
+	void inactivateToasts() {
+		GameObject[] allToasts = GameObject.FindGameObjectsWithTag ("Toast");
+		Vector3 screenWorldSize = Camera.main.ScreenToWorldPoint( new Vector3 (Screen.width, Screen.height));
+		foreach (GameObject toast in allToasts) {
+			if (toast.transform.position.x > screenWorldSize.x || toast.transform.position.x < -screenWorldSize.x
+				|| toast.transform.position.y > screenWorldSize.y || toast.transform.position.y < -screenWorldSize.y) {
 
+				toast.gameObject.SetActive (false);
+			}
+		}
+	}
 
 }
