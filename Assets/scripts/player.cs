@@ -1,16 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 //using UnityEngine.Camera;
 
 public class player : MonoBehaviour {
 	public Vector3 startPosition;
 	public int tileLength;
 	public float animationTime;
+	public Text gameOverText;
+
 	private float timeSinceAnimationStart;
-
 	private float animationSpeed;
-
 	private Animator playerAnimator;
 
 	bool playingAnimation;
@@ -20,6 +21,7 @@ public class player : MonoBehaviour {
 	void Start () {
 		startPosition = new Vector3 ((startPosition.x + 0.5f)*96.0f, (startPosition.y + 0.5f)*96.0f, 10.0f);
 		transform.position = Camera.main.ScreenToWorldPoint(startPosition);
+		gameOverText.enabled = false;
 
 		playerAnimator = GetComponent<Animator> ();
 		playerAnimator.enabled = false;
@@ -93,6 +95,7 @@ public class player : MonoBehaviour {
 		Debug.Log ("collision");
 		if (col.gameObject.CompareTag("Toast")) {
 			gameObject.SetActive(false);
+			gameOverText.enabled = true;
 		}
 	}
 }
