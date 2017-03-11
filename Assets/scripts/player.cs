@@ -9,7 +9,8 @@ public class player : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		transform.position = startPosition;
+		startPosition = new Vector3 ((startPosition.x + 0.5f)*96.0f, (startPosition.y + 0.5f)*96.0f, 10.0f);
+		transform.position = Camera.main.ScreenToWorldPoint(startPosition);
 	}
 	
 	// Update is called once per frame
@@ -33,5 +34,12 @@ public class player : MonoBehaviour {
 		Vector3 newPositionScreen = Camera.main.WorldToScreenPoint(transform.position) + direction * tileLength;
 		Vector3 newPositionWorld = Camera.main.ScreenToWorldPoint (newPositionScreen);
 		return newPositionWorld;
+	}
+
+	void OnTriggerEnter2D (Collider2D col) {
+		Debug.Log ("collision");
+		if (col.gameObject.CompareTag("Toast")) {
+			gameObject.SetActive(false);
+		}
 	}
 }
