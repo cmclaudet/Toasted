@@ -450,6 +450,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toastPrefab: {fileID: 1492359031261600, guid: cdd8beeb7bc484588831042a9d824485,
     type: 2}
+  toasterPrefabHor: {fileID: 1384052255307650, guid: 857cfa5203e6c4c509db935ce87f03c5,
+    type: 2}
+  toasterPrefabVer: {fileID: 1057953205812662, guid: 44dcc1591458d4bf9a8ae8e63a4154c3,
+    type: 2}
   spawnFrequency: 2
 --- !u!4 &1238530104
 Transform:

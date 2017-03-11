@@ -5,6 +5,9 @@ using UnityEngine;
 public class toastSpawner : MonoBehaviour {
 
 	public GameObject toastPrefab;
+	public GameObject toasterPrefabHor;
+	public GameObject toasterPrefabVer;
+	private GameObject[] toasters;
 	public float spawnFrequency;
 	private float moveFrequency;
 
@@ -17,6 +20,7 @@ public class toastSpawner : MonoBehaviour {
 		timeSinceSpawn = 0;
 		timeSinceMove = 0;
 		moveFrequency = toastPrefab.GetComponent<randomWalk> ().moveFrequency;
+		toasters = new GameObject[] { toasterPrefabHor, toasterPrefabVer };
 	}
 				
 	// Update is called once per frame
@@ -41,7 +45,9 @@ public class toastSpawner : MonoBehaviour {
 		Vector3 screenPosition = new Vector3 (xIndex + 0.5f, yIndex + 0.5f) * 96;
 		Vector3 worldPosition = Camera.main.ScreenToWorldPoint (screenPosition);
 		worldPosition = new Vector3 (worldPosition.x, worldPosition.y, 10.0f);
-		Instantiate (toastPrefab, worldPosition, Quaternion.identity);
+
+		int num = Random.Range (0, 2);
+		Instantiate (toasters[num], worldPosition, Quaternion.identity);
 	}
 
 	void inactivateToasts() {
