@@ -22,8 +22,4 @@ public class toastSpawner : MonoBehaviour {
 		Instantiate (toastPrefab, transform.position, Quaternion.identity);
 	}
 
-	Vector3 GenerateSpawnPosition() {
-		
-	}
-
 }

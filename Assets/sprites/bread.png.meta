@@ -1,0 +1,706 @@
+fileFormatVersion: 2
+guid: 2465a285cf9ba45d385c627a51e9f086
+timeCreated: 1489249437
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bread_0
+    21300002: bread_1
+    21300004: bread_2
+    21300006: bread_3
+    21300008: bread_4
+    21300010: bread_5
+    21300012: bread_6
+    21300014: bread_7
+    21300016: bread_8
+    21300018: bread_9
+    21300020: bread_10
+    21300022: bread_11
+    21300024: bread_12
+    21300026: bread_13
+    21300028: bread_14
+    21300030: bread_15
+    21300032: bread_16
+    21300034: bread_17
+    21300036: bread_18
+    21300038: bread_19
+    21300040: bread_20
+    21300042: bread_21
+    21300044: bread_22
+    21300046: bread_23
+    21300048: bread_24
+    21300050: bread_25
+    21300052: bread_26
+    21300054: bread_27
+    21300056: bread_28
+    21300058: bread_29
+    21300060: bread_30
+    21300062: bread_31
+    21300064: bread_32
+    21300066: bread_33
+    21300068: bread_34
+    21300070: bread_35
+    21300072: bread_36
+    21300074: bread_37
+    21300076: bread_38
+    21300078: bread_39
+    21300080: bread_40
+    21300082: bread_41
+    21300084: bread_42
+    21300086: bread_43
+    21300088: bread_44
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 500
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bread_0
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 6175
+        width: 872
+        height: 882
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_1
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 6190
+        width: 472
+        height: 868
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_2
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 6210
+        width: 194
+        height: 846
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_3
+      rect:
+        serializedVersion: 2
+        x: 3098
+        y: 6190
+        width: 476
+        height: 868
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_4
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 6218
+        width: 868
+        height: 872
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_5
+      rect:
+        serializedVersion: 2
+        x: 4583
+        y: 6192
+        width: 475
+        height: 881
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_6
+      rect:
+        serializedVersion: 2
+        x: 5130
+        y: 6214
+        width: 198
+        height: 840
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_7
+      rect:
+        serializedVersion: 2
+        x: 5392
+        y: 6194
+        width: 481
+        height: 878
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_8
+      rect:
+        serializedVersion: 2
+        x: 5920
+        y: 6224
+        width: 874
+        height: 874
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_9
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 5535
+        width: 871
+        height: 595
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_10
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 5566
+        width: 868
+        height: 588
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_11
+      rect:
+        serializedVersion: 2
+        x: 5922
+        y: 5566
+        width: 872
+        height: 595
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_12
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 5264
+        width: 803
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_13
+      rect:
+        serializedVersion: 2
+        x: 3695
+        y: 5295
+        width: 803
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_14
+      rect:
+        serializedVersion: 2
+        x: 5994
+        y: 5295
+        width: 800
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_15
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 4586
+        width: 872
+        height: 598
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_16
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 4618
+        width: 868
+        height: 598
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_17
+      rect:
+        serializedVersion: 2
+        x: 5952
+        y: 4618
+        width: 880
+        height: 599
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_18
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 3662
+        width: 880
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_19
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 3662
+        width: 481
+        height: 868
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_20
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 3662
+        width: 196
+        height: 840
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_21
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 3662
+        width: 476
+        height: 868
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_22
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 3662
+        width: 868
+        height: 868
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_23
+      rect:
+        serializedVersion: 2
+        x: 4602
+        y: 3662
+        width: 476
+        height: 868
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_24
+      rect:
+        serializedVersion: 2
+        x: 5146
+        y: 3662
+        width: 196
+        height: 840
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_25
+      rect:
+        serializedVersion: 2
+        x: 5414
+        y: 3662
+        width: 475
+        height: 868
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_26
+      rect:
+        serializedVersion: 2
+        x: 5952
+        y: 3662
+        width: 880
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_27
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 2944
+        width: 872
+        height: 609
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_28
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 2970
+        width: 868
+        height: 600
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_29
+      rect:
+        serializedVersion: 2
+        x: 5968
+        y: 2967
+        width: 878
+        height: 603
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_30
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 2700
+        width: 800
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_31
+      rect:
+        serializedVersion: 2
+        x: 3694
+        y: 2702
+        width: 804
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_32
+      rect:
+        serializedVersion: 2
+        x: 6010
+        y: 2719
+        width: 800
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_33
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 1962
+        width: 872
+        height: 598
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_34
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 2074
+        width: 868
+        height: 598
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_35
+      rect:
+        serializedVersion: 2
+        x: 5967
+        y: 1984
+        width: 879
+        height: 598
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_36
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1024
+        width: 871
+        height: 880
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_37
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 1023
+        width: 472
+        height: 881
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_38
+      rect:
+        serializedVersion: 2
+        x: 2831
+        y: 1040
+        width: 195
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_39
+      rect:
+        serializedVersion: 2
+        x: 3098
+        y: 1026
+        width: 476
+        height: 872
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_40
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 1023
+        width: 868
+        height: 881
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_41
+      rect:
+        serializedVersion: 2
+        x: 4576
+        y: 1024
+        width: 482
+        height: 880
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_42
+      rect:
+        serializedVersion: 2
+        x: 5130
+        y: 1050
+        width: 198
+        height: 844
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_43
+      rect:
+        serializedVersion: 2
+        x: 5391
+        y: 1024
+        width: 482
+        height: 880
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bread_44
+      rect:
+        serializedVersion: 2
+        x: 5938
+        y: 1050
+        width: 879
+        height: 872
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
